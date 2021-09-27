@@ -20,7 +20,7 @@ public class Phone {
     private Long Id;
 
     @Column(nullable = false)
-    private PhoneType phoneType;
+    private PhoneType type;
 
     @Column(nullable = false)
     private String number;
